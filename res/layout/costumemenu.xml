@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="50px"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF">
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="A"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="B"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="C"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="D"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="E"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="F"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="G"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="H"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="I"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="J"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="K"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="L"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView
+			android:gravity="center_horizontal"
+			android:text="M"
+			android:textSize="20dp"
+		/>
+	</TableRow>
+</TableLayout>
