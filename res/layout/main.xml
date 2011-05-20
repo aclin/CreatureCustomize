@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
     
     <ImageView
@@ -13,45 +12,17 @@
     <TextView
         android:id="@+id/creature_name"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:gravity="top|center_horizontal"
+        android:layout_height="100px"
+        android:gravity="center"
         android:text="Pawly"
         android:textColor="#FFFFFF"
         android:textSize="20sp">
      </TextView>
-     
-     <Button
-     	android:id="@+id/armour_button"
+    
+    <Button
+    	android:id="@+id/config_button"
      	android:layout_width="wrap_content"
      	android:layout_height="wrap_content"
+     	android:layout_gravity="bottom|center_horizontal"
      	android:background="@drawable/ic_menu_settings"/>
 </merge>
--->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
-	<TextView
-		android:id="@+id/monster_name"
-		android:layout_width="fill_parent"
-		android:layout_height="80px"
-		android:text="@string/monster_name"
-		android:gravity="center"
-		android:textColor="#FFFFFF"
-		android:textSize="20sp"
-		android:background="#000000"/>
-	
-	<ImageView
-		android:id="@+id/monster_img"
-		android:layout_below="@id/monster_name"
-		android:layout_width="fill_parent"
-		android:layout_height="300px"
-		android:scaleType="center"
-		android:src="@drawable/pawly_stand"/>
-	
-	<Button
-		android:layout_below="@id/monster_img"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_centerHorizontal="true"
-		android:background="@drawable/ic_menu_settings"/>
-</RelativeLayout>
