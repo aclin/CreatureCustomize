@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#AA000000">
+     	
+	<Button
+    	android:id="@+id/config_button_armour"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5px"
+    	android:padding="5px"
+    	android:background="#CCCCCC"
+    	android:text="Armour Button"/>
+    <Button
+    	android:id="@+id/config_button_helmet"
+    	android:layout_toRightOf="@id/config_button_armour"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5px"
+    	android:padding="5px"
+    	android:background="#CCCCCC"
+    	android:text="Helmet Button"/>
+    <Button
+    	android:id="@+id/config_button_weapon"
+    	android:layout_below="@id/config_button_armour"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="5px"
+    	android:padding="5px"
+    	android:background="#CCCCCC"
+    	android:text="Weapon Button"/>
+    <Button
+    	android:id="@+id/config_button_footgear"
+    	android:layout_below="@id/config_button_helmet"
+     	android:layout_toRightOf="@id/config_button_weapon"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_margin="5px"
+     	android:padding="5px"
+     	android:background="#CCCCCC"
+     	android:text="Footgear Button"/>
+</RelativeLayout>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/armour_menu"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:background="@android:color/transparent">
 	
 	<TextView
-		android:layout_gravity="center"
 		android:layout_width="200px"
 		android:layout_height="wrap_content"
 		android:background="#AACCCCCC"
 		android:textSize="15sp"
 		android:gravity="center"
-		android:text="Include buttons here for customizing the monster"/>
+		android:text="Include buttons here for monster armour menu"/>
 
-</FrameLayout>
+</RelativeLayout>
